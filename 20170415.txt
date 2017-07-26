@@ -1,0 +1,9 @@
+安裝anaconda最新版本後，無法安裝tensorflow
+
+error message: tensorflow_gpu-1.0.1-cp35-cp35m-win_amd64.whl is not a supported wheel on this platform.
+表示目前的tensorflow並不支援python3.6
+但是anaconda安裝的是python3.6版本
+
+solution: 將anaconda中python的版本降成python3.5.3版本
+
+>conda search python make sure there is version 3.5.2 > conda install python=3.5.2
